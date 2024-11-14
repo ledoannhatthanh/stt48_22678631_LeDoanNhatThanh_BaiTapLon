@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/trangchu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="header">
+
+            <div class="logo">
+                <a href="#"><img class="logo" src="../IMG/Pink Green Cute Circle Strawberry Milk Juice Logo.png" /></a>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li><a href="trangchu.html">Trang chủ</a></li>
+                    <li><a href="sanpham.html">Sản phẩm</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                </ul>
+            </div>
+
+            <div class="icons">
+                <div class="search">
+                    <input type="text" name="" id="" placeholder="Tìm kiếm">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="quantity">0</span>
+                </div>
+                <div class="shopping-cart">
+                    <div class="head">
+                        <p>Giỏ hàng</p>
+                        <i class="fa-solid fa-xmark close-shopping-cart"></i>
+                    </div>
+                    <ul class="list-cart"></ul>
+                    <div class="checkout">
+                        <p class="total"></p>
+                        <p class="payment" data-bs-toggle="modal" data-bs-target="#exampleModal">Thanh toán</p>
+                    </div>
+                </div>
+                <div class="user">
+                    <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="content">
+
+            <div class="banner">
+                <i class="fa-solid fa-angle-left prev" onclick="prev()"></i>
+                <img src="../IMG/banner1.png" class="slide" alt="">
+                <img src="../IMG/banner2.jpg" class="slide" alt="">
+                <img src="../IMG/banner3.png" class="slide" alt="">
+                <img src="../IMG/banner4.jpg" class="slide" alt="">
+                <img src="../IMG/banner5.jpg" class="slide" alt="">
+                <i class="fa-solid fa-angle-right next" onclick="next()"></i>
+            </div>
+
+
+            <div class="container mt-5">
+            </div>
+
+
+
+            <div class="footer">
+
+                <div class="contain">
+                    <div class="information">
+                        <h2>HƯỚNG DẪN MUA SẮM & THANH TOÁN</h2>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands"></i>
+                                    <span>Hướng dẫn đặt hàng online</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands"></i>
+                                    <span>Hướng dẫn trả góp</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands"></i>
+                                    <span>Hướng dẫn thanh toán </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="information">
+                        <h2>Hỗ trợ khách hàng</h2>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <span>Chăm sóc khách hàng</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>Hướng dẫn mua hàng</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>Hướng dẫn giúp mẹ chọn sữa cho bé</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>Hướng dẫn sử dụng sữa</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="information">
+                        <h2>THÔNG TIN VÀ CHÍNH SÁCH</h2>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <span>Điều khoản dịch vụ</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>Chính sách thanh toán & giao hàng</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>Chính sách kiểm hàng & đổi trả</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>Chính sách vận chuyển</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>Chính sách bảo vệ thông tin</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="map">
+                        <div class="map-link">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.8582379826526!2d106.68427047480561!3d10.822158889329412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUUC5IQ00!5e0!3m2!1svi!2s!4v1713196555625!5m2!1svi!2s"
+                                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p>© Bản quyền thuộc về <span>Nhật Thanh</span> 2024</p>
+                </div>
+
+            </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Thanh toán</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Thông tin khách hàng</h5>
+                            <form action="">
+                                <div class="mb-1">
+                                    <label for="name" class="form-label">Họ và tên</label>
+                                    <input type="text" name="" id="name-payment" class="form-control">
+                                    <h2 class="error-namepayment"></h2>
+                                </div>
+                                <div class="mb-1">
+                                    <label for="gender" class="form-label">Giới tính</label>
+                                    <select name="" id="" class="form-control">
+                                        <option value="male">Nam</option>
+                                        <option value="female">Nữ</option>
+                                    </select>
+                                </div>
+                                <div class="mb-1">
+                                    <label for="tel" class="form-label">Số điện thoại</label>
+                                    <input type="tel" name="" id="tel" class="form-control">
+                                    <h2 class="error-tel"></h2>
+                                </div>
+                                <div class="mb-1">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="" id="email" class="form-control">
+                                    <h2 class="error-email"></h2>
+                                </div>
+                            </form>
+                            <h5 class="payments">Hình thức thanh toán</h5>
+                            <div class="choose-payments">
+                                <input type="radio" name="payment" id="" value="cash"> Tiền mặt <br>
+                                <input type="radio" name="payment" id="" value="bank-card"> Thẻ ngân hàng <br>
+                                <input type="radio" name="payment" id="" value="electronic-wallet"> Ví điện tử <br>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btnCloseModal" data-bs-dismiss="modal">Đóng</button>
+                            <button type="button" class="btnConfirmPayment">Thanh toán</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            (function(d, t) {
+                var v = d.createElement(t),
+                    s = d.getElementsByTagName(t)[0];
+                v.onload = function() {
+                    window.voiceflow.chat.load({
+                        verify: {
+                            projectID: '661b5cabd25c694abdf23018'
+                        },
+                        url: 'https://general-runtime.voiceflow.com',
+                        versionID: 'production'
+                    });
+                }
+                v.type = "text/javascript";
+                s.parentNode.insertBefore(v, s);
+            })(document, 'script');
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="../JS/dulieu.js"></script>
+        <script src="../JS/script.js"></script>
+</body>
+
+</html>
